@@ -3,11 +3,8 @@
 /* ---------------------------------------------- */
 
 body {
-  /* background-color: #fff; */
-  /* color: #555; */
+  background-color: rgb(51, 50, 47);
   font-family: "Josefin Sans", sans-serif;
-  /* font-weight: 300; */
-  /* font-size: 20px; */
   text-rendering: optimizeLegibility;
 }
 
@@ -24,7 +21,7 @@ body {
 } */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/header.webp);
   background-size: 100% 50%;
   background-repeat: no-repeat;
@@ -38,7 +35,7 @@ header {
 }
 
 .hero-text-box {
-  padding-right: 15px;
+  padding-right: 35px;
   text-align: right;
   color: white;
   font-family: "Allura", cursive;
@@ -49,4 +46,55 @@ header {
 
 .hero-text-emphasis {
   font-family: "Bebas Neue", cursive;
+}
+
+.product-list > h2 {
+  color: white;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.product-card {
+  position: relative;
+  /* background-color: #fff; */
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  position: absolute;
+  top: 50px;
+  height: 90px;
+  width: 100px;
+  border-radius: 25px;
+  z-index: 2;
+}
+
+.product-description {
+  position: absolute;
+  height: 200px;
+  width: 250px;
+  border: 1px solid black;
+  left: 50px;
+  background-color: gray;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.product-description h5 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 5px;
+}
+
+.product-description span {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  font-size: x-small;
+  left: 65px;
+  top: 60px;
 }

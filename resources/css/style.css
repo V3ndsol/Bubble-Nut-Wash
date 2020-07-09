@@ -48,38 +48,6 @@ header {
   font-family: "Bebas Neue", cursive;
 }
 
-<<<<<<< HEAD
-.media{
-	margin: 20px;
-	height:200px;
-	border:2px solid black;
-	border-radius: 20px;
-	background-color: rgb(117, 114, 110);
-	color: white;
-	opacity: 80%;
-}
-.productHead{
-	margin: 10px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-}
-#productDisplay{
-	width: 100px;
-	height: 175px;
-	margin: 10px;
-	padding: 5px;
-	border:2px solid black;
-	border-radius: 15px;
-	background-color: white;
-}
-.productDes{
-	margin: 10px;
-	font-family: 'Josefin Sans', sans-serif;
-	color:rgb(219, 217, 215);
-	font-size: 16px;
-}
-=======
 .product-list > h2 {
   color: white;
   padding-top: 10px;
@@ -130,4 +98,3 @@ header {
   left: 65px;
   top: 60px;
 }
->>>>>>> d4bafaa8225183a85a8276f5447db9510aaeb122

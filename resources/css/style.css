@@ -99,6 +99,49 @@ header {
   top: 60px;
 }
 
+/* ---------------------------------*/
+/* card buttons */
+/* -------------------------------- */
+
+.product-description .cart-btn {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  font-size: x-small;
+  left: 65px;
+  top: 150px;
+  padding: 0.3rem 0.5rem;
+  background-color: #06294e;
+  border-color: #7bbaca;
+}
+
+.product-description .read-button {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  font-size: x-small;
+  left: 145px;
+  top: 150px;
+  padding: 0.3rem 0.5rem;
+  background-color: gray;
+  border-color: #7bbaca;
+}
+
+.product-description .read-button:hover {
+  background: #06294e;
+  color: #fff;
+  border-color: #7bbaca;
+}
+
+/* ---------------------------------*/
+/* modal description */
+/* -------------------------------- */
+
+.modal-product-image {
+  width: 100%;
+}
+
+/* ---------------------------------*/
+/* cart button */
+/* -------------------------------- */
 .cart {
   background-color: #ffffff;
   color: #000000;

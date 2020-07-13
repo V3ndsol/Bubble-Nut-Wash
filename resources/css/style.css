@@ -3,7 +3,7 @@
 /* ---------------------------------------------- */
 
 body {
-  background-color:#1D2228;
+  background-color:rgb(51,50,47);
   font-family: "Josefin Sans", sans-serif;
   text-rendering: optimizeLegibility;
 }
@@ -49,8 +49,8 @@ header {
 }
 
 .product-list > h3 {
-  color: #E1E2E2;/*changed*/
-  padding-top: 15px;
+  color: white;/*changed*/
+  padding-top: 10px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -58,20 +58,18 @@ header {
   position:relative;
   /* background-color: #fff; */
   width: 300px;
-  height: 230px;
+  height: 200px;
   /*margin-bottom: 20px;*/
-  margin:0 2% 10px 0;
+  margin-bottom: 20px;
 }
 
 .product-image {
   position: absolute;
-  margin:18% 0;/*changed*/
-  /*top: 50px;/*changed 50px*/
-  height: 95px;/*changed*/
-  width: 93px;/*changed*/
+  top: 50px;/*changed 50px*/
+  height: 90px;/*changed*/
+  width: 100px;/*changed*/
   border-radius: 25px;
   z-index: 2;
-  border:2px solid white;
 
 }
 
@@ -80,41 +78,98 @@ header {
   height: 200px;/*changed*/
   width: 250px;/*changed*/
   border: 1px solid black;
-  left: 30px;
-  background-color: #F7F7F7;/*changed*/
+  left: 50px;
+  background-color: gray;/*changed*/
   border-radius: 25px;
   z-index: 1;
-  margin:10px;/*changed*/
 }
 
 .product-description h5 {
-  color: black;
+  color: white;
   font-family: "Open Sans", sans-serif;
   position: absolute;
   left: 65px;
-  top: 15px;/*changed*/
-  font-size: 16px;/*changed*/
-  right: 15px;/*changed*/
+  top: 5px;/*changed*/
 }
 
 .product-description span {
-  color: rgb(83,84,84);/*changed*/
+  color: white;/*changed*/
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
-  font-size: small;/*changed*/
+  font-size: x-small;/*changed*/
   left: 65px;
   top: 60px;/*changed*/
-  right:20px;/*changed*/
 }
-.quantity{
-  margin-top:140px;
-  margin-left: 65px;
-  margin-bottom: 5px;
-  color:rgb(77,79,77);
-  font-size: 15px;
+
+/* ---------------------------------*/
+/* card buttons */
+/* -------------------------------- */
+
+.product-description .cart-btn {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  font-size: x-small;
+  left: 65px;
+  top: 150px;
+  padding: 0.3rem 0.5rem;
+  background-color: #06294e;
+  border-color: #7bbaca;
 }
-.price{
-  color:#55C269;
-  
-  margin-left: 65px;
+
+.product-description .read-button {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  font-size: x-small;
+  left: 145px;
+  top: 150px;
+  padding: 0.3rem 0.5rem;
+  background-color: gray;
+  border-color: #7bbaca;
+}
+
+.product-description .read-button:hover {
+  background: #06294e;
+  color: #fff;
+  border-color: #7bbaca;
+}
+
+/* ---------------------------------*/
+/* modal description */
+/* -------------------------------- */
+
+.modal-product-image {
+  width: 100%;
+}
+
+/* ---------------------------------*/
+/* cart button */
+/* -------------------------------- */
+.cart {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 13px 13px;
+  border-color: #ffffff;
+  border-radius: 50%;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 20;
+}
+
+.cart-amount {
+  width: 20px;
+  height: 20px;
+  background-color: #31708e;
+  position: absolute;
+  z-index: 30;
+  border-radius: 50%;
+  bottom: 33px;
+  left: 25px;
+  text-align: center;
+  color: white;
 }

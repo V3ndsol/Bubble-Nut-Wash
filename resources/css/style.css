@@ -3,7 +3,7 @@
 /* ---------------------------------------------- */
 
 body {
-  background-color: rgb(51, 50, 47);
+  background-color:#1D2228;
   font-family: "Josefin Sans", sans-serif;
   text-rendering: optimizeLegibility;
 }
@@ -26,7 +26,7 @@ header {
   background-size: 100% 50%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 50vh;
+  height: 45vh;
   background-attachment: fixed;
 }
 
@@ -48,53 +48,73 @@ header {
   font-family: "Bebas Neue", cursive;
 }
 
-.product-list > h2 {
-  color: white;
-  padding-top: 10px;
+.product-list > h3 {
+  color: #E1E2E2;/*changed*/
+  padding-top: 15px;
   font-family: "Open Sans", sans-serif;
 }
 
 .product-card {
-  position: relative;
+  position:relative;
   /* background-color: #fff; */
   width: 300px;
-  height: 200px;
-  margin-bottom: 20px;
+  height: 230px;
+  /*margin-bottom: 20px;*/
+  margin:0 2% 10px 0;
 }
 
 .product-image {
   position: absolute;
-  top: 50px;
-  height: 90px;
-  width: 100px;
+  margin:18% 0;/*changed*/
+  /*top: 50px;/*changed 50px*/
+  height: 95px;/*changed*/
+  width: 93px;/*changed*/
   border-radius: 25px;
   z-index: 2;
+  border:2px solid white;
+
 }
 
 .product-description {
-  position: absolute;
-  height: 200px;
-  width: 250px;
+  position:absolute;
+  height: 200px;/*changed*/
+  width: 250px;/*changed*/
   border: 1px solid black;
-  left: 50px;
-  background-color: gray;
+  left: 30px;
+  background-color: #F7F7F7;/*changed*/
   border-radius: 25px;
   z-index: 1;
+  margin:10px;/*changed*/
 }
 
 .product-description h5 {
-  color: white;
+  color: black;
   font-family: "Open Sans", sans-serif;
   position: absolute;
   left: 65px;
-  top: 5px;
+  top: 15px;/*changed*/
+  font-size: 16px;/*changed*/
+  right: 15px;/*changed*/
 }
 
 .product-description span {
-  color: white;
+  color: rgb(83,84,84);/*changed*/
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
-  font-size: x-small;
+  font-size: small;/*changed*/
   left: 65px;
-  top: 60px;
+  top: 60px;/*changed*/
+  right:20px;/*changed*/
+}
+.quantity{
+  margin-top:140px;
+  margin-left: 65px;
+  margin-bottom: 5px;
+  color:rgb(77,79,77);
+  font-size: 15px;
+}
+.price{
+  color:#55C269;
+  
+  margin-left: 65px;
 }

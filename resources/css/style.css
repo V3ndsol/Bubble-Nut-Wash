@@ -8,6 +8,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+<<<<<<< HEAD
 /* .clearfix {
   zoom: 1;
 }
@@ -51,12 +52,22 @@ header {
 .product-list > h3 {
   color: white;/*changed*/
   padding-top: 10px;
+=======
+.product-list > h2 {
+  color: white;
+  margin-top: 20px;
+>>>>>>> origin/nikunj
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 50px;
 }
 
 .product-card {
+<<<<<<< HEAD
   position:relative;
   /* background-color: #fff; */
+=======
+  position: relative;
+>>>>>>> origin/nikunj
   width: 300px;
   height: 200px;
   /*margin-bottom: 20px;*/
@@ -141,6 +152,15 @@ header {
   width: 100%;
 }
 
+.product-card .modal-content{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural-Handwash.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: justify;
+}
+
 /* ---------------------------------*/
 /* cart button */
 /* -------------------------------- */
@@ -150,6 +170,7 @@ header {
   padding: 13px 13px;
   border-color: #ffffff;
   border-radius: 50%;
+  
 }
 
 #mybutton {

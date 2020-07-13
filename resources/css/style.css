@@ -3,12 +3,10 @@
 /* ---------------------------------------------- */
 
 body {
-  background-color:rgb(51,50,47);
+  background-color:#1D2228;
   font-family: "Josefin Sans", sans-serif;
   text-rendering: optimizeLegibility;
 }
-
-<<<<<<< HEAD
 /* .clearfix {
   zoom: 1;
 }
@@ -50,24 +48,17 @@ header {
 }
 
 .product-list > h3 {
-  color: white;/*changed*/
+  color: #E1E2E2;/*changed*/
   padding-top: 10px;
-=======
-.product-list > h2 {
-  color: white;
-  margin-top: 20px;
->>>>>>> origin/nikunj
+  color: #E1E2E2;
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .product-card {
-<<<<<<< HEAD
   position:relative;
   /* background-color: #fff; */
-=======
   position: relative;
->>>>>>> origin/nikunj
   width: 300px;
   height: 200px;
   /*margin-bottom: 20px;*/
@@ -76,12 +67,15 @@ header {
 
 .product-image {
   position: absolute;
-  top: 50px;/*changed 50px*/
-  height: 90px;/*changed*/
-  width: 100px;/*changed*/
+  top: 48px;/*changed 50px*/
+  height: 98px;/*changed*/
+  width: 105px;/*changed*/
   border-radius: 25px;
   z-index: 2;
-
+  border: 2px solid white;
+  -webkit-box-shadow: 2px 2px 20px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 20px -8px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 20px -8px rgba(0,0,0,0.75);
 }
 
 .product-description {
@@ -90,26 +84,29 @@ header {
   width: 250px;/*changed*/
   border: 1px solid black;
   left: 50px;
-  background-color: gray;/*changed*/
+  background-color: #F7F7F7;/*changed*/
   border-radius: 25px;
   z-index: 1;
 }
 
 .product-description h5 {
-  color: white;
+  color: black;
   font-family: "Open Sans", sans-serif;
   position: absolute;
   left: 65px;
-  top: 5px;/*changed*/
+  top: 15px;/*changed*/
+  font-size: 16px;
+  right: 15px;
 }
 
 .product-description span {
-  color: white;/*changed*/
+  color: rgb(83,84,84);/*changed*/
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
-  font-size: x-small;/*changed*/
+  font-size: small;/*changed*/
   left: 65px;
   top: 60px;/*changed*/
+  right: 10px;
 }
 
 /* ---------------------------------*/
@@ -121,10 +118,14 @@ header {
   position: absolute;
   font-size: x-small;
   left: 65px;
-  top: 150px;
+  top: 158px;
   padding: 0.3rem 0.5rem;
-  background-color: #06294e;
-  border-color: #7bbaca;
+  background-color: #1D2228;
+  border:none;
+  bottom: 15px;
+  -webkit-box-shadow: 2px 2px 20px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 20px -2px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 20px -2px rgba(0,0,0,0.75);
 }
 
 .product-description .read-button {
@@ -132,16 +133,20 @@ header {
   position: absolute;
   font-size: x-small;
   left: 145px;
-  top: 150px;
+  top: 158px;
+  bottom: 15px;
   padding: 0.3rem 0.5rem;
   background-color: gray;
-  border-color: #7bbaca;
+  border:none;
+  -webkit-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
 }
 
 .product-description .read-button:hover {
-  background: #06294e;
+  background: #1D2228;
   color: #fff;
-  border-color: #7bbaca;
+  border-color: #1D2228;
 }
 
 /* ---------------------------------*/
@@ -170,7 +175,6 @@ header {
   padding: 13px 13px;
   border-color: #ffffff;
   border-radius: 50%;
-  
 }
 
 #mybutton {

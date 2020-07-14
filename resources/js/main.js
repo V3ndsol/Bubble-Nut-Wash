@@ -162,7 +162,6 @@ function displayCart() {
     var cartArray = shoppingCart.listCart();
     var output = "";
     for (var i in cartArray) {
-        console.log(cartArray[i].name + " " + cartArray[i].price);
         output += "<tr>" +
             "<td>" + cartArray[i].name.replace(/-/g, " ") + "</td>" +
             // "<td>(" + cartArray[i].price + ")</td>" +
@@ -184,7 +183,6 @@ function displayCart() {
 $('.show-cart').on("click", ".delete-item", function (event) {
     var name = $(this).data('name');
     var price = $(this).data('price');
-    console.log(name);
     shoppingCart.removeItemFromCartAll(name);
     displayCart();
 });

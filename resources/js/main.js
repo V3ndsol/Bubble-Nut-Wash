@@ -1,4 +1,4 @@
-// ************************************************
+ // ************************************************
 // Shopping Cart API
 // ************************************************
 
@@ -165,9 +165,9 @@ function displayCart() {
         output += "<tr>" +
             "<td>" + cartArray[i].name.replace(/-/g, " ") + "</td>" +
             // "<td>(" + cartArray[i].price + ")</td>" +
-            "<td><div class='input-group d-flex flex-column'><button class='minus-item input-group-addon btn btn-primary' data-name=" + cartArray[i].name + ">-</button>" +
-            "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>" +
-            "<button class='plus-item btn btn-primary btn-xs input-group-addon' data-name=" + cartArray[i].name + ">+</button></div></td>" +
+            "<td><div class='input-group d-flex flex-column'><button class='minus-item input-group-addon' data-name=" + cartArray[i].name + ">-</button>" +
+            "<input type='number' id='quantity' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>" +
+            "<button class='plus-item input-group-addon' data-name=" + cartArray[i].name + ">+</button></div></td>" +
             "<td>" + cartArray[i].total + "</td>" +
             "<td><button class='delete-item' data-name=" + cartArray[i].name + ">X</button></td>" +
             " = " +

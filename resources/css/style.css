@@ -198,3 +198,52 @@ box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
   text-align: center;
   color: white;
 }
+.minus-item{
+  border-radius: 20px 0 0 20px;
+  border:1px solid #1D2228;
+  background-color: white;
+  color:black;
+}
+.minus-item:hover{
+  color:white;
+  background-color: #1D2228;
+  border-color: #1D2228;
+}
+.plus-item{
+  border-radius: 0 20px 20px 0;
+  border:1px solid #1D2228;
+  background-color: white;
+  color:black;
+}
+.delete-item{
+  border-radius: 10px;
+  border:none;
+  background-color: white;
+}
+.item-count{
+  border-top:1px solid #1D2228;
+  border-bottom:1px solid #1D2228;
+  border-left:none;
+  border-right: none;
+
+}
+.clear-cart{
+  background-color:#1D2228;
+  color:white;
+  -webkit-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+  border-radius: 18px;
+  margin-right: 2rem;
+  font-size: 15px;
+}
+.Order-now{
+  background-color:#1D2228;
+  color:white;
+  -webkit-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
+  border-radius: 18px;
+  margin-right: 2rem;
+  font-size: 15px;
+}

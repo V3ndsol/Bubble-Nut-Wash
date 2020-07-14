@@ -157,13 +157,44 @@ box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
   width: 100%;
 }
 
+/* for all products */
 .product-card .modal-content{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural-Handwash.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
   text-align: justify;
+}
+
+
+/* product 1 */
+#NaturalLaundryDetergent .modal-content{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural Laundry Detergent [1L].png');
+}
+
+/* product 2 */
+#SilkAndWool .modal-content{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Silk-and-Woolen-Wash.png');
+}
+
+/* product 3 */
+#NaturalDishwashLiquid .modal-content{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural_Dishwash_Liquid.jpg');
+}
+
+/* product 4 */
+#NaturalFruitAndVegetableWash .modal-content{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural_fruit_and_Veggie_foamwash.jpg');
+}
+
+/* product 5 */
+#NaturalFloorCleaner .modal-content{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural-Floor-Cleaner.png');
+}
+
+/* product 6 */
+#NaturalHandwash .modal-content{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural-Handwash.png');
 }
 
 /* ---------------------------------*/

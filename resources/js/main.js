@@ -1,4 +1,4 @@
- // ************************************************
+// ************************************************
 // Shopping Cart API
 // ************************************************
 
@@ -168,7 +168,7 @@ function displayCart() {
             "<td><div class='input-group d-flex flex-column'><button class='minus-item input-group-addon' data-name=" + cartArray[i].name + ">-</button>" +
             "<input type='number' id='quantity' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>" +
             "<button class='plus-item input-group-addon' data-name=" + cartArray[i].name + ">+</button></div></td>" +
-            "<td>" + cartArray[i].total + "</td>" +
+            "<td>Rs. " + cartArray[i].total + "</td>" +
             "<td><button class='delete-item' data-name=" + cartArray[i].name + ">X</button></td>" +
             " = " +
             "</tr>";

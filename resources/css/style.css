@@ -52,7 +52,7 @@ body {
   position: absolute;
   left: 65px;
   top: 15px; /*changed*/
-  font-size: 16px;
+  font-size: 17px;
   right: 15px;
 }
 
@@ -60,12 +60,18 @@ body {
   color: rgb(83, 84, 84); /*changed*/
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
-  font-size: small; /*changed*/
+  font-size: 15px; /*changed*/
   left: 65px;
-  top: 60px; /*changed*/
+  top: 64px; /*changed*/
   right: 10px;
 }
 
+.Price{
+  color:rgb(83,138,48);
+  margin-top:130px;
+  margin-left:65px;
+  font-size: 16px;
+}
 /* ---------------------------------*/
 /* card buttons */
 /* -------------------------------- */
@@ -186,63 +192,7 @@ body {
   text-align: center;
   color: white;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.minus-item{
-  border-radius: 20px 0 0 20px;
-  border:1px solid #1D2228;
-  background-color: white;
-  color:black;
-}
-.minus-item:hover{
-  color:white;
-  background-color: #1D2228;
-  border-color: #1D2228;
-}
-.plus-item{
-  border-radius: 0 20px 20px 0;
-  border:1px solid #1D2228;
-  background-color: white;
-  color:black;
-}
-.delete-item{
-  border-radius: 10px;
-  border:none;
-  background-color: white;
-}
-.item-count{
-  border-top:1px solid #1D2228;
-  border-bottom:1px solid #1D2228;
-  border-left:none;
-  border-right: none;
 
-}
-.clear-cart{
-  background-color:#1D2228;
-  color:white;
-  -webkit-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
-  box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
-  border-radius: 18px;
-  margin-right: 2rem;
-  font-size: 15px;
-}
-.Order-now{
-  background-color:#1D2228;
-  color:white;
-  -webkit-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
-  box-shadow: 2px 2px 20px -5px rgba(0,0,0,0.75);
-  border-radius: 18px;
-  margin-right: 2rem;
-  font-size: 15px;
-}
-/*.input-group{
-  transform: rotate(90deg);
-}*/
-=======
-=======
->>>>>>> 82d2dff2c9a9e3b09a3a5cd69f776968f1457507
 
 .footer {
   background: #000;
@@ -281,14 +231,12 @@ body {
   }
 }
 
-<<<<<<< HEAD
->>>>>>> 1a8024cd5a474f8f31e830e1eccb4a9c0139663d
-=======
 .minus-item {
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   border: 1px solid #1d2228;
   background-color: white;
   color: black;
+  width:40px;
 }
 .minus-item:hover {
   color: white;
@@ -296,22 +244,31 @@ body {
   border-color: #1d2228;
 }
 .plus-item {
-  border-radius: 0px 0px 30px 30px;
+  border-radius: 0px 0px 10px 10px;
   border: 1px solid #1d2228;
   background-color: white;
   color: black;
+  width: 40px;
+}
+.plus-item:hover {
+  color: white;
+  background-color: #1d2228;
+  border-color: #1d2228;
 }
 .delete-item {
   border-radius: 10px;
   border: none;
   background-color: white;
 }
-.item-count {
+#quantity {
   border-top: none;
   border-bottom: none;
   border-left: 1px solid #1d2228;
   border-right: 1px solid #1d2228;
+  text-align: center;
+  width:40px;
 }
+
 .clear-cart {
   background-color: #1d2228;
   color: white;
@@ -332,4 +289,3 @@ body {
   margin-right: 2rem;
   font-size: 15px;
 }
->>>>>>> 82d2dff2c9a9e3b09a3a5cd69f776968f1457507

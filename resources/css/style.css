@@ -150,7 +150,7 @@ header {
   border-radius: 50%;
 }
 
-#mybutton {
+#shoppingcartbutton {
   position: fixed;
   bottom: 15px;
   left: 15px;
@@ -171,3 +171,41 @@ header {
   text-align: center;
   color: white;
 }
+
+.footer {
+  background: #000;
+  padding: 20px 0;
+}
+.footer .inner-left,
+.footer .inner-right {
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #fff;
+}
+.footer p {
+  color: #fff;
+}
+@media (min-width:992px) {
+  .footer .inner-left {
+    float: left;
+  }
+  .footer .inner-right {
+    float: right;
+  }
+}
+@media (max-width:991px) {
+  .footer {
+    text-align: center;
+  }
+}
+@media (min-width:768px) {
+  .footer p {
+    display: inline-block;
+  }
+  .footer p + p {
+    padding-left: 50px;
+  }
+}
+

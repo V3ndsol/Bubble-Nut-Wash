@@ -119,6 +119,13 @@ body {
   width: 100%;
 }
 
+.modal-content .modal-body
+{
+  font-color: #ffffff; /*changed*/
+  padding-top: 10px;
+  font-family: "Allerta Stencil", serif;
+}
+
 /* for all products */
 .product-card .modal-content{
   background-size: cover;
@@ -131,32 +138,33 @@ body {
 
 /* product 1 */
 #NaturalLaundryDetergent .modal-content{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural Laundry Detergent [1L].png');
+  background-color: #000000;
+
 }
 
 /* product 2 */
 #SilkAndWool .modal-content{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Silk-and-Woolen-Wash.png');
+  background-color: #000000;
 }
 
 /* product 3 */
 #NaturalDishwashLiquid .modal-content{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural_Dishwash_Liquid.jpg');
+  background-color: #000000;
 }
 
 /* product 4 */
 #NaturalFruitAndVegetableWash .modal-content{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural_fruit_and_Veggie_foamwash.jpg');
+  background-color: #000000;
 }
 
 /* product 5 */
 #NaturalFloorCleaner .modal-content{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural-Floor-Cleaner.png');
+  background-color: #000000;
 }
 
 /* product 6 */
 #NaturalHandwash .modal-content{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/Natural-Handwash.png');
+  background-color: #000000;
 }
 
 /* ---------------------------------*/
@@ -173,7 +181,7 @@ body {
 #shoppingcartbutton {
   position: fixed;
   bottom: 40px;
-  left: 15px;
+  right: 15px;
   width: 50px;
   height: 50px;
   z-index: 20;

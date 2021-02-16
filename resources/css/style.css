@@ -1,14 +1,13 @@
 body {
-  background-color: #1d2228;
-  font-family: "Josefin Sans", sans-serif;
+  background-color: #99f3bd;
+  font-family: "Allerta Stencil", serif;
   text-rendering: optimizeLegibility;
 }
 
 .product-list > h3 {
-  color: #e1e2e2; /*changed*/
+  font-color: #ffffff; /*changed*/
   padding-top: 10px;
-  color: #e1e2e2;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Allerta Stencil", serif;
   margin-bottom: 20px;
 }
 

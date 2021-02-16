@@ -290,23 +290,8 @@ body {
   width:40px;
 }
 
-.clear-cart {
-  background-color: #1d2228;
-  color: white;
-  -webkit-box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.75);
-  border-radius: 18px;
-  margin-right: 2rem;
-  font-size: 15px;
-}
 .Order-now {
-  background-color: #1d2228;
+
   color: white;
-  -webkit-box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.75);
-  border-radius: 18px;
-  margin-right: 2rem;
-  font-size: 15px;
+ 
 }
